@@ -1,8 +1,9 @@
 ﻿using OnlineShop.Application.Contracts.Dtos;
+using OnlineShop.Domain.Entities.Orders;
 
 namespace OnlineShop.Application.Contracts;
 
 public interface IOrderService
 {
-    Task CreateOrderAsync(OrderDto item);
+    Task<decimal> CreateOrderAsync(OrderDto item);
 }

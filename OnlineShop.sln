@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{251404B0-5487-4B94-90B4-1933AB4ECEAB}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Infrastructure.PersistenceBase.SQL", "src\OnlineShop.Infrastructure.PersistenceBase.SQL\OnlineShop.Infrastructure.PersistenceBase.SQL.csproj", "{9BF47919-9AF6-47CF-81C5-B2A070DD0438}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Domain", "src\OnlineShop.Domain\OnlineShop.Domain.csproj", "{C0005365-F713-4FB5-9893-7401E4552EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.UnitTests", "tests\OnlineShop.UnitTests\OnlineShop.UnitTests.csproj", "{3F96F5E7-C4E0-461C-989D-C93C84532BE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{C0005365-F713-4FB5-9893-7401E4552EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0005365-F713-4FB5-9893-7401E4552EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0005365-F713-4FB5-9893-7401E4552EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F96F5E7-C4E0-461C-989D-C93C84532BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F96F5E7-C4E0-461C-989D-C93C84532BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F96F5E7-C4E0-461C-989D-C93C84532BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F96F5E7-C4E0-461C-989D-C93C84532BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +73,6 @@ Global
 		{52938C33-0BC3-4FEF-9057-DFF1CA9A9152} = {251404B0-5487-4B94-90B4-1933AB4ECEAB}
 		{9BF47919-9AF6-47CF-81C5-B2A070DD0438} = {251404B0-5487-4B94-90B4-1933AB4ECEAB}
 		{C0005365-F713-4FB5-9893-7401E4552EE7} = {251404B0-5487-4B94-90B4-1933AB4ECEAB}
+		{3F96F5E7-C4E0-461C-989D-C93C84532BE1} = {31C9760D-2598-42DD-8319-E43359F440B4}
 	EndGlobalSection
 EndGlobal

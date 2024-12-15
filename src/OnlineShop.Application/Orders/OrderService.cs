@@ -18,7 +18,7 @@ public class OrderService : BaseService, IOrderService
         _Configuration = configuration;
     }
 
-    public async Task CreateOrderAsync(OrderDto orderDto)
+    public async Task<decimal> CreateOrderAsync(OrderDto orderDto)
     {
         var ordersettings = _Configuration.GetSection(ConfigLexicon.OrderSettings);
         Guard.CheckValidOrderPlacementPeriod(Convert.ToInt32(ordersettings[ConfigLexicon.FromOrderPlacement]), Convert.ToInt32(ordersettings[ConfigLexicon.ToOrderPlacement]));
@@ -53,6 +53,7 @@ public class OrderService : BaseService, IOrderService
         order.TotalPrice = Math.Max(totalPrice, 0);
         await _Persisterlayers.AddAsync(order);
         await _Persisterlayers.CommitAsync();
+        return order.TotalPrice;
     }
 
     private async Task<decimal> _SetProducts(OrderDto orderDto, Order order)
@@ -78,12 +79,12 @@ public class OrderService : BaseService, IOrderService
             else
                 order.ShippingType = PersianLexicon.NormalPost;
 
-            totalPrice += price * item.quantity;
+            totalPrice += price * item.Quantity;
 
             order.OrderItems.Add(new OrderItem
             {
                 ProductId = item.ProductId,
-                Quantity = item.quantity
+                Quantity = item.Quantity
             });
         }
 
