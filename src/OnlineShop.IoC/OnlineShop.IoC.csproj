@@ -14,6 +14,8 @@
   <ItemGroup>
     <ProjectReference Include="..\OnlineShop.Application.Contracts\OnlineShop.Application.Contracts.csproj" />
     <ProjectReference Include="..\OnlineShop.Application\OnlineShop.Application.csproj" />
+    <ProjectReference Include="..\OnlineShop.Infrastructure.PersistenceBase.SQL\OnlineShop.Infrastructure.PersistenceBase.SQL.csproj" />
+    <ProjectReference Include="..\OnlineShop.Infrastructure.PersistenceBase\OnlineShop.Infrastructure.PersistenceBase.csproj" />
   </ItemGroup>
 
 </Project>
