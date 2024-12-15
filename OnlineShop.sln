@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Infrastructure.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Infrastructure.PersistenceBase.SQL", "src\OnlineShop.Infrastructure.PersistenceBase.SQL\OnlineShop.Infrastructure.PersistenceBase.SQL.csproj", "{9BF47919-9AF6-47CF-81C5-B2A070DD0438}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Domain", "src\OnlineShop.Domain\OnlineShop.Domain.csproj", "{C0005365-F713-4FB5-9893-7401E4552EE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{9BF47919-9AF6-47CF-81C5-B2A070DD0438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF47919-9AF6-47CF-81C5-B2A070DD0438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF47919-9AF6-47CF-81C5-B2A070DD0438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0005365-F713-4FB5-9893-7401E4552EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0005365-F713-4FB5-9893-7401E4552EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0005365-F713-4FB5-9893-7401E4552EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0005365-F713-4FB5-9893-7401E4552EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +66,6 @@ Global
 		{6A5173F2-ABF1-4F67-A5AA-DC759D622F3B} = {251404B0-5487-4B94-90B4-1933AB4ECEAB}
 		{52938C33-0BC3-4FEF-9057-DFF1CA9A9152} = {251404B0-5487-4B94-90B4-1933AB4ECEAB}
 		{9BF47919-9AF6-47CF-81C5-B2A070DD0438} = {251404B0-5487-4B94-90B4-1933AB4ECEAB}
+		{C0005365-F713-4FB5-9893-7401E4552EE7} = {251404B0-5487-4B94-90B4-1933AB4ECEAB}
 	EndGlobalSection
 EndGlobal
