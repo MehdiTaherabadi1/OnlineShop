@@ -9,8 +9,8 @@ namespace OnlineShop.Application.Contracts;
 public class PersianLexicon
 {
     public const string Normal_ShippingType = "معمولی";
-    public const string VanguardPost = "پیشتاز";
-    public const string NormalPost = "نرمال";
+    public const string VanguardPost = "پست پیشتاز";
+    public const string NormalPost = "پست معمولی";
     public const string SucessOpertion = "عملیات با موفقیت انجام شد";
 
     public const string Error_UnValidOrder = "مبلغ سفارش نمی‌تواند کمتر از 50000 تومان باشد.";
